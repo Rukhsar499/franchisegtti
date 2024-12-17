@@ -501,7 +501,7 @@ h2 {
  font-size: 22px !important;
 }
 .mb {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .abt-text {
   padding: 10px;
@@ -528,8 +528,11 @@ h2 {
   padding:20px;
   height: 150px;
 }
-.border-r, .b-b {
+/* .border-r, .b-b {
   border-right: none;
-  border-bottom: 1px solid #0000009f;
+  border-bottom: 1px solid #00000048;
+} */
+.affi-box::after{
+  background-color: #fff;
 }
 }
