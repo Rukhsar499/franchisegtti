@@ -399,10 +399,7 @@ p {
 .mb{
 	margin-bottom: 50px;
 }
-.border-r {
-  border-right: none;
-  border-bottom: 1px solid #0000009f;
-}
+
 .go-top.active {
     top: 98%;
     -webkit-transform: translateY(-98%);
@@ -437,12 +434,6 @@ p {
     opacity: 1;
     visibility: visible;
 }
-
-
-
-
-
-
 @media screen and (max-width: 767px) {
   .bottom-button{
     display: block;
@@ -507,10 +498,14 @@ h2 {
 }
 .red-box {
   padding:20px;
-  height: 170px;
+  height: 150px;
 }
 .blue-box{
   padding:20px;
-  height: 170px;
+  height: 150px;
+}
+.border-r {
+  border-right: none;
+  border-bottom: 1px solid #0000009f;
 }
 }
