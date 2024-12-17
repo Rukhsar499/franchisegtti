@@ -185,6 +185,9 @@ p {
 	  top: -1px;
 	  margin-top: 0;
 	}
+  .tab-contents ul li{
+    padding-top: 10px;
+  }
   }
   /* tab end */
   
