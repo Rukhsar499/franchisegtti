@@ -29,10 +29,24 @@
         <h3 id="star">Start your new </h3>
         <h1 id="bus">business</h1>
         <div class="mt-4">
-          <button class="btn btn-warning">join Us <img src="assets/img/Arrow.png" alt="" width="50px"></button>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">join Us <img src="assets/img/Arrow.png" alt="" width="50px"></button>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="banner2 mb">
+   <div class="b-div">
+   <img src="assets/img/franchise.jpg" alt="" class="img-fluid">
+   <div class="bb-text">
+    <img src="assets/img/logo.png" alt="" width="200px" height="100px">
+    <h3 id="star">Start your new </h3>
+    <h1 id="bus">business</h1>
+    <div class="mt-4">
+      <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">join Us <img src="assets/img/Arrow.png" alt="" width="50px"></button>
+    </div>
+  </div>
+   </div>
   </section>
 
   <section class="boxes mb">
@@ -125,37 +139,44 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-12">
             <div class="mb-3">
-              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Full name">
+              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Full name" required>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-12">
             <div class="mb-3">
-              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Business details">
+              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Business details" required>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-12">
             <div class="mb-3">
-              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Contact Number">
+              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Contact Number" required>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-12">
             <div class="mb-3">
-              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Location">
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-12">
-            <div class="mb-3">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Franchise Type</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+              <select class="form-select" aria-label="Default select example" required>
+                <option selected>Location</option>
+                <option value="">Kolkata</option>
+                <option value="">Mumbai</option>
+                <option value="">Chennai</option>
+                <option value="">Delhi</option>
               </select>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-12">
             <div class="mb-3">
-              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Message">
+              <select class="form-select" aria-label="Default select example" required>
+                <option selected>Franchise Type</option>
+                <option value="Full ATC">Full ATC</option>
+                <option value="Beauty & Wellness">Beauty & Wellness</option>
+                <option value="GTIAE">GTIAE</option>
+                <option value="Smart Centre">Smart Centre</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Message" required>
             </div>
           </div>
         </div>
@@ -193,7 +214,7 @@
                 Institute went ahead to open franchisee training centres i.e. Authorized Training Centres (ATCs) in
                 almost
                 every corner of eastern India covering West Bengal, Odisha, Jharkhand, Bihar and Assam.</p>
-              <h3>The advantages of an ATC are:</h3>
+              <h3>The Advantages of an ATC are:</h3>
               <ul>
                 <li>Due to presence of a number of disciplines, the ATC can target to get a lot many students.</li>
                 <li>Profitability is very high in this case, thereby ensuring a steady rate of returns.</li>
@@ -353,7 +374,7 @@
             
             <div class="items active" style="background-image: url(./assets/img/boy.png);">
               <div class="item-desc">
-                <h3>Tour Gain</h3>
+                <h3><b>Your Gain</b></h3>
                 <ul>
                   <li>Financial Stability with high returns</li>
                 </ul>
@@ -361,9 +382,9 @@
             </div>
           
          
-            <div class="items" style="background-image: url(./assets/img/img2.jpg);">
+            <div class="items" style="background-image: url(./assets/img/full-1.png);">
               <div class="item-desc">
-                <h3>Why Us</h3>
+                <h3><b>Why Us</b></h3>
                 <ul>
                   <li>104 years of Training Experience.</li>
                   <li>70+ Centres , 80+ courses.</li>
@@ -374,9 +395,9 @@
             </div>
             
            
-            <div class="items" style="background-image: url(./assets/img/img3.jpg);">
+            <div class="items" style="background-image: url(./assets/img/full.png);">
               <div class="item-desc">
-                <h3>Eligibility</h3>
+                <h3><b>Eligibility</b></h3>
                 <ul>
                   <li>Only businessman/Professional having capability to invest can apply.</li>
                   <li>1500 to 2200 sq.ft area on main road or prominent location.</li>
@@ -497,12 +518,12 @@
         </div>
         <div class="col-lg-2 col-md-2 col-6">
           <div class="affi-box border-r">
-            <img src="assets/img/netaji.png" alt="">
+            <img src="assets/img/nsou.png" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-6">
           <div class="affi-box border-r">
-            <img src="assets/img/ncet.png" alt="">
+            <img src="assets/img/ncvet.png" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-6">
@@ -562,6 +583,69 @@
   </section>
 
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Start Your Business</h1>
+        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Full name" required>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Business details" required>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Contact Number" required>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="mb-3">
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Location</option>
+                  <option value="">Kolkata</option>
+                  <option value="">Mumbai</option>
+                  <option value="">Chennai</option>
+                  <option value="">Delhi</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="mb-3">
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Franchise Type</option>
+                  <option value="Full ATC">Full ATC</option>
+                  <option value="Beauty & Wellness">Beauty & Wellness</option>
+                  <option value="GTIAE">GTIAE</option>
+                  <option value="Smart Centre">Smart Centre</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-4 col-12">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Message" required>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-danger">Submit</button>
+          </div>
+        </form>
+      </div>
+      </div>
+  </div>
+</div>
 
 
 
