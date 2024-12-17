@@ -26,6 +26,9 @@ h4{
   color: #000;
   font-weight: 600;
 }
+h3{
+  font-family: "Be Vietnam Pro", sans-serif;
+}
 p {
   font-family: "Be Vietnam Pro", sans-serif;
     margin-top: 0;
@@ -396,7 +399,10 @@ p {
 .mb{
 	margin-bottom: 50px;
 }
-
+.border-r {
+  border-right: none;
+  border-bottom: 1px solid #0000009f;
+}
 .go-top.active {
     top: 98%;
     -webkit-transform: translateY(-98%);
@@ -451,36 +457,48 @@ p {
 .icons{
 	display: none;
 }
-
-.footer {
-  padding: 30px 10px;
+p{
+  font-size: 13px;
 }
-.
+.footer {
+  padding: 10px;
+}
+#marf {
+  padding-top: 0px;
+}
 .phone-btn, .whatsapp-btn, .apply-btn{
   border: none;
   color: #fff;
   padding: 8px;
   background: rgb(119, 43, 193);
     background: linear-gradient(90deg, rgba(119, 43, 193, 1) 0%, rgba(126, 0, 248, 1) 35%, rgba(128, 58, 194, 1) 100%);
- 
 }
 .phone-btn{
  font-size: 18px;
   width: 100%;
   text-align:center;
   font-family: "Genos", sans-serif;
-
- } 
- 
+} 
+.tab-contents {
+  padding: 10px;
+} 
 h2 {
  font-size: 22px !important;
 }
 .mb {
     margin-bottom: 25px;
 }
-
+.abt-text {
+  padding: 10px;
+}
 .go-top.active {
     top: 92%;
 }
-
+.btn-warning{
+  padding: 10px 12px;
+  font-size: 14px;
+}
+.video-box {
+  padding: 0px;
+}
 }
