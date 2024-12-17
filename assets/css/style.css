@@ -501,4 +501,16 @@ h2 {
 .video-box {
   padding: 0px;
 }
+#bus {
+  color: #fff;
+  font-size: 24px;
+}
+.red-box {
+  padding:20px;
+  height: 170px;
+}
+.blue-box{
+  padding:20px;
+  height: 170px;
+}
 }
