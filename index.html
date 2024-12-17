@@ -104,8 +104,8 @@
       <div class="text-center">
         <div class="row">
           <div class="col-lg-6 col-md-5 col-12">
-            <div class="t-img border-r">
-              <img src="assets/img/nsdc.png" alt="" class="img-fluid">
+            <div class="t-img border-right">
+              <img src="assets/img/NSDC1.png" alt="" class="img-fluid">
             </div>
           </div>
           <div class="col-lg-6 col-md-5 col-12">
@@ -349,7 +349,8 @@
             The Franchisee</h2>
         </div>
         <div class="col-lg-9 col-md-3 col-12">
-          <div class="row">
+          <div class="g-section">
+            
             <div class="items active" style="background-image: url(./assets/img/boy.png);">
               <div class="item-desc">
                 <h3>Tour Gain</h3>
@@ -358,6 +359,8 @@
                 </ul>
               </div>
             </div>
+          
+         
             <div class="items" style="background-image: url(./assets/img/img2.jpg);">
               <div class="item-desc">
                 <h3>Why Us</h3>
@@ -369,6 +372,8 @@
                 </ul>
               </div>
             </div>
+            
+           
             <div class="items" style="background-image: url(./assets/img/img3.jpg);">
               <div class="item-desc">
                 <h3>Eligibility</h3>
@@ -378,6 +383,7 @@
                 </ul>
               </div>
             </div>
+           
           </div>
         </div>
       </div>
@@ -640,16 +646,22 @@
   </script>
 
   <script>
-    $(".custom-carousel").owlCarousel({
-      autoWidth: true,
-      loop: true
-    });
-    $(document).ready(function () {
-      $(".custom-carousel .item").click(function () {
-        $(".custom-carousel .item").not($(this)).removeClass("active");
-        $(this).toggleClass("active");
+    document.addEventListener("DOMContentLoaded", function () {
+    const items = document.querySelectorAll(".game-section .items");
+
+    // Click event listener lagayenge har item pe
+    items.forEach((item) => {
+      item.addEventListener("click", function () {
+        // Sabse pehle, active class remove karein sabhi items se
+        document.querySelectorAll(".game-section .items").forEach((el) => {
+          el.classList.remove("active");
+        });
+
+        // Ab click wale item pe active class add karein
+        this.classList.add("active");
       });
     });
+  });
 
   </script>
 </body>
