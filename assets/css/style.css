@@ -504,7 +504,7 @@ h2 {
   padding:20px;
   height: 150px;
 }
-.border-r {
+.border-r, .b-b {
   border-right: none;
   border-bottom: 1px solid #0000009f;
 }
