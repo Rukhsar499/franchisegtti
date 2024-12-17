@@ -217,7 +217,7 @@ p {
       /* display: none; */
       text-align: center;
   }
-  .game-section .item {
+  .game-section .items {
     margin: 0 15px 60px;
     width: 200px;
     height: 500px;
@@ -230,10 +230,10 @@ p {
     position: relative;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
-    cursor: pointer;
+    
     border-radius: 20px;
   }
-  .game-section .item.active {
+  .game-section .items.active {
     width: 500px;
     box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
@@ -246,7 +246,7 @@ p {
   .game-section p{
     font-size: 18px;
   }
-  .game-section .item:after {
+  .game-section .items:after {
     content: "";
     display: block;
     position: absolute;
@@ -267,7 +267,7 @@ p {
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
   }
-  .game-section .item.active .item-desc {
+  .game-section .items.active .item-desc {
     transform: none;
     -webkit-transform: none;
   }
@@ -278,7 +278,7 @@ p {
     transition: all 0.4s ease-in-out 0.2s;
     -webkit-transition: all 0.4s ease-in-out 0.2s;
   }
-  .game-section .item.active .item-desc p {
+  .game-section .items.active .item-desc p {
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -306,12 +306,12 @@ p {
     .game-section {
       padding: 50px 30px;
     }
-    .game-section .item {
+    .game-section .items {
       margin: 0 12px 60px;
       width: 260px;
       height: 360px;
     }
-    .game-section .item.active {
+    .game-section .items.active {
       width: 400px;
     }
     .game-section .item-desc {
@@ -336,12 +336,12 @@ p {
     .game-section {
       padding: 50px 30px 40px;
     }
-    .game-section .item {
+    .game-section .items {
       margin: 0 12px 60px;
       width: 240px;
       height: 330px;
     }
-    .game-section .item.active {
+    .game-section .items.active {
       width: 360px;
     }
     .game-section .item-desc {
@@ -370,12 +370,12 @@ p {
     .game-section {
       padding: 30px 15px 20px;
     }
-    .game-section .item {
+    .game-section .items {
       margin: 0 10px 40px;
       width: 200px;
       height: 280px;
     }
-    .game-section .item.active {
+    .game-section .items.active {
       width: 270px;
       box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
       -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
