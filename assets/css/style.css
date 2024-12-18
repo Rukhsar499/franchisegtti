@@ -37,10 +37,13 @@ h4{
 h3{
   font-family: "Be Vietnam Pro", sans-serif;
 }
-.modal-body .form-control, .form-select{
+.modal-body .form-control, .modal-body .form-select{
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #fff;
+  color: #fff ;
+}
+.modal-body input::placeholder {
   color: #fff;
 }
 .modal-header {
