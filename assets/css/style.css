@@ -435,7 +435,7 @@ object-fit: contain;
       padding-left: 10px;
     }
     .item-desc ul li{
-      font-size: 13px;
+      font-size: 11px;
     }
   }
 @media (min-width: 768px) and (max-width: 991px) {
