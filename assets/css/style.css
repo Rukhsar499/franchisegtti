@@ -43,6 +43,9 @@ h3{
   border-bottom: 1px solid #fff;
   color: #fff ;
 }
+.modal-body select option{
+  color: #000;
+}
 .modal-body input::placeholder {
   color: #fff;
 }
@@ -57,7 +60,8 @@ h3{
 }
 .btn-close {
  width: 30px;
-  height: 30px;
+ height: 30px;
+ border-radius: 50px;
 }
 .modal-content{
   background-color: #262261c7;
