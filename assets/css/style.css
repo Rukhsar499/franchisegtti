@@ -427,7 +427,7 @@ object-fit: contain;
       -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
     }
     .game-section .item-desc {
-      padding: 0 14px 5px;
+      padding: 0 10px 5px;
       transform: translateY(calc(100% - 42px));
       -webkit-transform: translateY(calc(100% - 42px));
     }
@@ -594,5 +594,9 @@ h2 {
 .bb-text {
   width:80%;
   padding: 120px 20px 0px 64px;
+}
+.game-section h3 {
+  font-size: 10px;
+  line-height: 15px;
 }
 }
