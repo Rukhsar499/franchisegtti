@@ -161,6 +161,7 @@ p {
     #EE4036,
     #262261
   );
+  margin-bottom: 20px;
   background-size: 200% auto;
   color: white;
   padding: 12px 25px;
@@ -186,12 +187,22 @@ p {
   color:#fff;
   
 }
+.desk-top{
+  position: fixed;
+  top: 60%;
+  right: 0;
+  z-index: 9999;
+  margin-top: 20px;
+}
 .phone-st{
   background-color: #EE4036;
   padding: 15px;
-  position: fixed;
-  top: 55%;
-  right: 0;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.wht-st{
+  background-color: #262261;
+  padding: 15px;
   border-radius: 50px;
 }
 /* .affi-box img{
