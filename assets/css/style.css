@@ -186,6 +186,14 @@ p {
   color:#fff;
   
 }
+.phone-st{
+  background-color: #EE4036;
+  padding: 15px;
+  position: fixed;
+  top: 55%;
+  right: 0;
+  border-radius: 50px;
+}
 /* .affi-box img{
  width: 80%;
  height: 100%;
