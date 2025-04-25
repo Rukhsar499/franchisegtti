@@ -19,6 +19,9 @@ a{
 .banner2{
   display: none;
 }
+.mobile-footer {
+  display: none;
+}
 h2{
   font-family: "Mulish", sans-serif;
    color: #262261;
@@ -154,6 +157,7 @@ p {
   position: fixed;
   top: 50%;
   right: 0;
+  display: block;
   transform: translateY(-50%);
   background: linear-gradient(
     to right,
@@ -193,6 +197,7 @@ p {
   right: 0;
   z-index: 9999;
   margin-top: 20px;
+  display: block;
 }
 .phone-st{
   background-color: #EE4036;
@@ -583,6 +588,9 @@ object-fit: contain;
 .icons{
 	display: none;
 }
+.sticky-franchise-btn, .desk-top{
+  display: none;
+}
 p{
   font-size: 12px;
 }
@@ -636,7 +644,7 @@ h2 {
 }
 .red-box, .blue-box {
   padding:20px;
-  height: 150px;
+  height: 130px;
   margin: 10px;
 }
 
@@ -677,3 +685,49 @@ h2 {
   padding: 20px;
 } */
 }
+@media (max-width: 768px) {
+  .mobile-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(
+    to right,
+    #262261,
+    #EE4036,
+    #262261
+  );
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: 0 center;
+  }
+}
+  
+
+  .footer-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-phn, .footer-icon{
+    border-right: 1px solid #ffffff94;
+    padding-right: 30px;
+  }
+  .footer-icon{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+}
+
