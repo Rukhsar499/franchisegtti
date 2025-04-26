@@ -99,7 +99,7 @@ p {
   border-radius: 10px;
 }
 .red-box{
-  background-color: #262261;
+  background-color: #ffc107;
   padding: 40px 20px;
   color: #fff;
   height: 200px;
@@ -108,9 +108,9 @@ p {
   padding: 50px 20px;
 }
 .blue-box{
-  background-color: #EE4036;
+  background-color: #cfbaf0;
   padding: 40px 20px;
-  color: #fff;
+  color: #000;
   height: 200px;
 }
 #star{
@@ -208,7 +208,7 @@ p {
   margin-bottom: 5px;
 }
 .wht-st{
-  background-color: #262261;
+  background-color: #ffc107;
   padding: 15px;
   border-radius: 50px;
 }
@@ -233,7 +233,7 @@ object-fit: contain;
     background-color: #2121213b;
 }
 .footer{
-  background-color: #22175C;
+  background-color: #ffc107;
   text-align: center;
   padding: 15px 0px 5px 0px;
   color: #fff;
@@ -280,7 +280,7 @@ object-fit: contain;
   #tab-button li a:hover,
   #tab-button .is-active a {
 	border-bottom-color: transparent;
-	background: #262261;
+	background: #dc3545;
   color:#fff;
   border:none;
   }
@@ -302,7 +302,7 @@ object-fit: contain;
         word-wrap: normal;
         width: 100% !important;
         padding: 15px;
-        background: #262261;
+        background: #dc3545;
         color: #fff;
         font-size: 14px;
     }
@@ -698,9 +698,9 @@ h2 {
     width: 100%;
     background: linear-gradient(
     to right,
-    #262261,
+    #ffc107,
     #EE4036,
-    #262261
+    #ffc107
   );
     padding: 10px 0;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
@@ -723,7 +723,7 @@ h2 {
     height: 30px;
   }
   .footer-phn, .footer-icon{
-    border-right: 1px solid #ffffff94;
+    border-right: 1px solid #0000009d;
     padding-right: 30px;
   }
   .footer-icon{
