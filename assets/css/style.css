@@ -456,14 +456,16 @@ object-fit: contain;
     .line-title {
       width: 330px;
     }
-  
+    #marf {
+      padding-top: 100px;
+  }
     /* -------- Landing page ------- */
     .game-section {
       padding: 50px 30px 40px;
     }
     .game-section .items {
       margin: 0 12px 60px;
-      width: 240px;
+      width: 140px;
       height: 330px;
     }
     .game-section .items.active {
@@ -687,7 +689,7 @@ h2 {
   padding: 20px;
 } */
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .mobile-footer {
     display: flex;
     justify-content: space-around;
@@ -732,4 +734,19 @@ h2 {
     font-family: "Be Vietnam Pro", sans-serif;
   }
 }
-
+@media (max-width: 768px) {
+  #tab-button li a {
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+.bb-text {
+  padding: 20px 20px 0px 100px;
+ width: 50%;
+ 
+}
+#bus {
+ font-size: 25px;
+ margin-top: 17px;
+}
+}
