@@ -459,6 +459,9 @@ object-fit: contain;
     #marf {
       padding-top: 100px;
   }
+  .mt-4 {
+    margin-top: 0px !important;
+}
     /* -------- Landing page ------- */
     .game-section {
       padding: 50px 30px 40px;
