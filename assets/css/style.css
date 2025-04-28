@@ -22,6 +22,9 @@ a{
 .mobile-footer {
   display: none;
 }
+.vfy{
+  margin-top: 30px;
+}
 h2{
   font-family: "Mulish", sans-serif;
    color: #262261;
@@ -129,7 +132,7 @@ p {
   background-color: #26226182;
   padding:  120px 20px 0px 140px;
   text-align: left;
-  width: 30%;
+  width: 40%;
   height: 100%;
   position: absolute;
   top: 0%;
@@ -453,15 +456,16 @@ object-fit: contain;
       font-size: 24px;
       line-height: 32px;
     }
+    
     .line-title {
       width: 330px;
     }
     #marf {
       padding-top: 100px;
   }
-  .mt-4 {
-    margin-top: 0px !important;
-}
+  .vfy{
+    margin-top: 0px;
+  }
     /* -------- Landing page ------- */
     .game-section {
       padding: 50px 30px 40px;
